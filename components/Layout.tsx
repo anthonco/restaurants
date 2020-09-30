@@ -25,7 +25,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </Link>{' '}
         |{' '}
         <Link href="/users">
-          <a>Users List</a>
+          <a>Restaurant List</a>
         </Link>{' '}
         | <a href="/api/users">Users API</a>
       </nav>
@@ -33,7 +33,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>&#169; Charter Communications</span>
     </footer>
   </div>
 )
