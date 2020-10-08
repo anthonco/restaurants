@@ -19,3 +19,4 @@ Created using `npx create-next-app --example with-typescript restaurant`
 #  
 - File structure organized using the [Fractal](https://hackernoon.com/fractal-a-react-app-structure-for-infinite-scale-4dab943092af) structure.
 
+### Libraries Used
