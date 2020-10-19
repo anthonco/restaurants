@@ -7,6 +7,20 @@ type Props = {
 }
 
 const List = ({ items }: Props) => (
+  <table>
+    <tbody>
+      {items.map((item) => (
+        <tr key={item.id}>
+          <ListItem data={item} />
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)
+
+export default List
+
+/*
   <ul>
     {items.map((item) => (
       <li key={item.id}>
@@ -14,6 +28,4 @@ const List = ({ items }: Props) => (
       </li>
     ))}
   </ul>
-)
-
-export default List
+*/

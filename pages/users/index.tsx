@@ -19,7 +19,7 @@ const WithStaticProps = ({ items }: Props) => (
     </p>
     <p>You are currently on: /users</p>
     <FetchData />
-    <List items={items} />
+    {/* <List items={items} /> */}
     <p>
       <Link href="/">
         <a>Go home</a>

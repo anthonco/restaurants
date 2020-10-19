@@ -7,4 +7,10 @@
 export type User = {
   id: number
   name: string
+  telephone: string
+  address1: string
+  city: string
+  state: string
+  zip: string
+  genre: string
 }
